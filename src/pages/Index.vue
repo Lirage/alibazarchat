@@ -18,41 +18,49 @@
     <DANA/>
 
     <!-- Это блок чата   -->
-    <q-scroll-area class="q-pa-md column absolute-bottom fit" >
-      <q-chat-message
-        label="8 августа 2020"
-      />
-      <q-chat-message
-        :text="['340 рублей за килограмм ?kbjfgdhsvvvvvvvvdfvbujsvfds uhbovfujibldfv dauhgbija vsduijbhl']"
-        sent
-        stamp="21:50"
-        class="fixed-position-stamp-sent doljnoPomoch "
-      />
+      <div style="height: 75vh;" class="column justify-end">
+        <div class="full-width"  style="max-width: 97vw;overflow: scroll">
+          <q-chat-message
+            label="8 августа 2020"
+          />
+          <q-chat-message
+            :text="['340 рублей за килограмм ?kbjfgdhsvvvvvvvvdfvbujsvfds uhbovfujibldfv dauhgbija vsduijbhl']"
+            sent
+            stamp="21:50"
+            class="fixed-position-stamp-sent doljnoPomoch "
+          />
 
-      <q-chat-message
-        avatar="https://cdn.quasar.dev/img/avatar2.jpg"
-        :text="['Да']"
-        stamp="21:50"
+          <q-chat-message
+            avatar="https://cdn.quasar.dev/img/avatar2.jpg"
+            :text="['Да']"
+            stamp="21:50"
 
-        class="fixed-position-stamp-answer doljnoPomoch"
-      />
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-      <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
-    </q-scroll-area>
+            class="fixed-position-stamp-answer doljnoPomoch"
+          />
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+          <q-chat-message :text="['Пизда']" class="doljnoPomoch" sent></q-chat-message>
+        </div>
+      </div>
+
+
+
     <!-- Конец блока чата -->
 
   </q-page>
@@ -68,7 +76,7 @@ export default {
   },
   data() {
     return {
-      text: 'хуй'
+      text: 'хуй',
     }
   }
 }
